@@ -1,0 +1,8 @@
+<?xml version="1.0">
+<catalogo>
+    <libro id="101">
+        <autor>Cal Newport</autor>
+        <titulo>Deep Work</titulo>
+        <genero>Productividad</genero>
+        <publicacion>2016</publicacion>
+    </libro>
