@@ -1,0 +1,33 @@
+Sobre CSS - Preguntas teóricas
+Ejercicio 1.
+¿Qué significa CSS y cuál es su sintaxis básica?
+    Cascading Styles Shhets. Es lo que le da estilo a nuestra pagina web
+
+Ejercicio 2.
+¿Cuál es la diferencia entre los selectores de ID, Clase y Etiqueta en CSS?
+    ID: para un solo elemento, que sea unico en el html
+    Class: para un conjunto de elementos que se pueden repetir en el HTML.
+    Etiquetea: Para todos los de etiqueta, por ejemplo <p> <h1>, etc.
+
+Ejercicio 3.
+¿En qué situaciones nos conviene utilizar selectores de cascada/combinada/compuesta en
+CSS?
+    Cuando se refleja una situacion en particualr de maquetacion en HTML. Cuando hay un elemento dentro de otro.
+
+Ejercicio 4.
+¿Cuáles son las diferentes formas de insertar CSS en una página HTML?
+    En linea: <h2 style="color: red;">Asi se aplica</h2>
+    En el Head: <style>
+                    .rojo{
+                        color: red;
+                    }
+                </style>
+    En un documento CSS: En el Head:
+                        <link rel="stylesheet" href="archivo.css"
+
+Ejercicio 5.
+¿Qué propiedades se pueden utilizar para cambiar el color, tamaño de fuente y alineación
+del texto en CSS?
+    Color: color:
+    Tamano de la fuene: font-size:
+    alineacion: text-align:
