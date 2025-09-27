@@ -1,0 +1,48 @@
+body{
+    font-family: ;Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color:antiquewhite;
+    text-align: center;
+}
+
+nav{
+    padding: 2px 0;
+    font-size: 0.8em;
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+}
+
+#noticiasRecientes{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+#noticiasRecientes span{
+    flex: auto;
+    text-align: center;
+}
+
+
+.class{
+    display: flex;
+}
+
+
+/*esto es para que se vea bien en dispositivos moviles*/
+
+@media (max-width: 768px){
+    #noticiasRecientes{
+        flex-direction: column;
+        align-items: center;
+    }
+}
