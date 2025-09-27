@@ -14,6 +14,7 @@ header{
 nav{
     padding: 2px 0;
     font-size: 0.8em;
+    font-family: "bebas neue", "suse mono", "courier new";
 }
 
 a{
@@ -33,9 +34,23 @@ a{
 }
 
 
-.class{
+#registro{
+    text-align: center;
+    margin: 20px 0;
     display: flex;
+    justify-content: center;
 }
+
+#registro form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+/*importacion de fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=SUSE+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 
 
 /*esto es para que se vea bien en dispositivos moviles*/
