@@ -1,0 +1,13 @@
+EJERCICIO 5:
+¿Cuál es la diferencia entre font-weight y font-style en CSS?
+    font-weight: te permite definir mediante valores numericos el tamaño del borde de la funete (que tan negrita queres)
+    font-style: te permite definir el estilo de la fuente, si en negrita, italic, oblique (si es q tiene).
+
+EJERCICIO 6:
+¿Qué hace la propiedad text-decoration en CSS y cuáles son los valores posibles que puede tomar?
+    Te permite decorar el texto (subrayar, tachar, colocar una linea encima del texto, o varias juntas).
+    Los valores posibles:
+        .underline
+        .overline
+        .line-through
+        .none
