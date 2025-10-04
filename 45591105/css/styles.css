@@ -1,0 +1,108 @@
+body {
+    background-color: #1b304a;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #131330;
+    text-align: center;
+    margin-bottom: 0px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        padding: 8px 16px;
+        border-radius: 5px;
+}
+
+        nav a:hover {
+            color: antiquewhite;
+        }   
+
+    nav ol {
+        list-style: none;
+        display: flex;
+        gap: 15px;
+    }
+
+footer {
+    background-color: #131330;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+        
+
+/*Estilos del index */
+
+#Titulo-Principal {
+    font-size: 3em;
+    margin: 10px 0 5px 0;
+}
+
+.titulo-h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#Section-Bienvenida {
+    text-align: center;
+}
+
+.Shows-Previews {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  text-align: center;
+}
+
+
+.Shows-Preview {
+    padding: 20px;
+    background-color: #2c3e50;
+    justify-content: center;
+    border-radius: 10px;
+    border: 2px solid #34495e;
+}
+
+    .Shows-Previews > h2 {
+    flex: 0 0 100%;        /* fuerza al h2 a ocupar todo el ancho */
+    text-align: center;    /* centra el texto */
+    margin-bottom: 20px;
+    }
+        .Shows-Preview img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        .shows-preview h3 {
+            margin: 10px 0 5px 0;
+        }
+
+        .shows-preview p {
+            margin: 5px 0;
+        }
+
+#iframe-ubicacion {
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
