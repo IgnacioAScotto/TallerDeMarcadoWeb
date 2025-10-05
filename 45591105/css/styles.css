@@ -199,3 +199,29 @@ footer {
 
         
 
+/* Programacion */
+
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    margin-bottom: 5px;
+}
+
+    th, td {
+        border: 1px solid white;
+        padding: 8px;
+        text-align: center;
+    }
+
+    #tabla-shows {
+            border: #404040 1px solid;
+            box-shadow: 0 4px 12px rgb(0,0,0,0.5);
+    }
+
+    #letra-chica {
+        font-size: 0.7rem;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
