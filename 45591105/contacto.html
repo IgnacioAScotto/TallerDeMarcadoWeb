@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Contacto | TicketArg</title>
+</head>
+<body>
+    <header>
+        <nav class="nav-container">
+
+            <a href="index.html" class="logo-ticket">
+                <img src="imagenes/ticket-logo.png" alt="Logo de TicketArg">TicketArg
+            </a>
+
+            <ol class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="programacion.html">Programación</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ol>
+        </nav>
+    </header>
+
+    <main>
+        <div id="div-contacto">
+            <section id="section-contacto">
+                <h2 class="titulo-h2">Formulario de Contacto</h2>
+                <form>
+                    <!--Campos de texto-->
+                    <div class="div-form" id="form-text">
+                        <label for="nombre">Nombre completo:</label>
+                        <input type="text" id="nombre" name="nombre" required  placeholder="Escribe tu nombre">
+
+                        <label for="email">Correo electrónico:</label>
+                        <input type="email" id="email" name="email" required placeholder="Escribe tu email">
+
+                        <label for="artista-fav">Artista favorito:</label>
+                        <input type="text" id="artista-fav" name="artista-fav" placeholder="Escribe tu artista favorito">
+
+                        <label for="fecha-asistencia">Fecha de asistencia:</label>
+                        <input type="date" id="fecha-asistencia" name="fecha-asistencia" required>
+                    </div>
+
+                    <!--Radio-->
+                    <div class="div-form" id="form-radio">
+                        <h4>Tipo de entrada:</h4>
+                        <input type="radio" id="campo" name="tipo-entrada" required>
+                        <label for="campo">Campo General</label>
+
+                        <input type="radio" id="platea" name="tipo-entrada" required>
+                        <label for="platea">Platea</label>
+
+                        <input type="radio" id="vip" name="tipo-entrada" required>
+                        <label for="vip">Campo VIP</label>
+                        </div>
+
+                    <!--Checkbox-->
+                    <div class="div-form" id="form-checkbox">
+                        <h4>Ineteres:</h4>
+                        <input type="checkbox" id="camping" name="checkbox">
+                        <label for="camping">Camping</label>
+
+                        <input type="checkbox" id="merchandising" name="merchandising">
+                        <label for="merchandising">Merchandising</label>
+
+                        <input type="checkbox" id="meet&great" name="meet&greet">
+                        <label for="meet&great">Meet & Great</label>
+                    </div>
+
+                    <!--Textarea para comentarios-->
+                    <label for="comentarios"><h4>Comentarios:</h4></label>
+                    <textarea id="comentarios" name="comentarios" rows="5" cols="40" placeholder="Escribe tus comentarios aquí..."></textarea>
+                    <br>
+                    <input type="submit" value="Enviar">
+
+                </form>
+            </section>
+
+            <aside id="aside-info-redes">
+                <h2 class="titulo-h2">Nuestras Redes Sociales</h2>
+                <div id="info-redes">
+                    <a href="https://www.instagram.com/unahurlingham" target="_blank">
+                        <img class="icono-redes" src="imagenes/instagram-logo.png" alt="Icono de Instagram">
+                    </a>
+                    <a href="https://x.com/unahurlingham" target="_blank">
+                        <img class="icono-redes" src="imagenes/twitter-logo.png" alt="Icono de Twitter">
+                    </a>
+                    <a href="https://www.facebook.com/UNAHUR" target="_blank">
+                        <img class="icono-redes" src="imagenes/facebook-logo.png" alt="Icono de Facebook">
+                    </a>
+                </div>
+
+                <div id="info-contacto">
+                    <h2 class="titulo-h2">Información de Contacto</h2>
+                    <h4>Teléfono:</h4>
+                        <p>+54 011 2066-1958</p>
+                    <h4>Email:</h4>
+                        <p>unahur@gmail.com</p>
+                    <h4>Direccón:</h4>
+                        <p>Tte. Manuel Origone 151, Villa Tesei, Buenos Aires.</p>
+                    <h4>Horarios:</h4>
+                        <p>08:00 - 18:00</p>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <footer>
+        <p><small>Alumno: Ignacio Agustin Scotto</small></p>
+        <p><small>DNI: 45.591.105</small></p>
+    </footer>
+</body>
+</html>
