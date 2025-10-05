@@ -182,10 +182,6 @@ main {
 }
 
 
-
-
-
-
 footer {
     display: flex;
     justify-content: space-between;
@@ -202,7 +198,7 @@ footer {
 /* Programacion */
 
 table {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     border-collapse: collapse;
     margin-bottom: 5px;
@@ -217,6 +213,11 @@ table {
     #tabla-shows {
             border: #404040 1px solid;
             box-shadow: 0 4px 12px rgb(0,0,0,0.5);
+            border-radius: 15px;
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            margin-bottom: 30px;
     }
 
     #letra-chica {
@@ -225,3 +226,38 @@ table {
         margin-bottom: 20px;
     }
 
+#elementos-prohibidos {
+    border: #404040 1px solid;
+    box-shadow: 0 4px 12px rgb(0,0,0,0.5);
+    border-radius: 15px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+    #lista-prohibidos {
+        display: inline-block;
+        list-style-type: disc;
+        padding-left: 20px;
+        margin: 0 auto;
+        text-align: left;
+    }
+
+#proceso-compra {
+    border: #404040 1px solid;
+    box-shadow: 0 4px 12px rgb(0,0,0,0.5);
+    border-radius: 15px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+    #lista-compra {
+        display: inline-block;
+        text-align: left;
+        margin: 0 auto;
+    }
