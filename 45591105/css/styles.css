@@ -122,6 +122,10 @@ main {
         justify-content: center;
         gap: 40px;
         padding: 40px;
+        border: #404040 1px solid;
+        box-shadow: 0 4px 12px rgb(0,0,0,0.5);
+        border-radius: 15px;
+        margin-bottom: 20px;
     }
 
         .proximos-shows h2 {
