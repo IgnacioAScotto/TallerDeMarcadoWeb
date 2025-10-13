@@ -1,0 +1,8 @@
+/*  Completa el siguiente código HTML con código CSS para agregar un margen de 20px, un 
+    relleno (padding) de 10px y un borde sólido de 1px a un div. */
+
+div {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid black;
+}
