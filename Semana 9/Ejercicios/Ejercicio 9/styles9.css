@@ -1,0 +1,12 @@
+.left, .right {
+    display: inline-block;
+}
+
+.left{
+    width: 45%;
+    background-color: lightblue;
+}
+.right{
+    width: 45%;
+    background-color: lightgreen;
+}

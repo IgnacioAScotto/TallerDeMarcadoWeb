@@ -1,4 +1,5 @@
 div {
-    display: flex;
-    justify-content: right;
+    position: fixed;
+    top: 0;
+    right: 0;
 }
