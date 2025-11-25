@@ -1,0 +1,5 @@
+Ejercicio 1: Crear un Layout con el Sistema de Rejilla
+Instrucciones:
+1. Usa el sistema de rejilla de Bootstrap para crear un layout con una fila y tres
+columnas que se ajusten automáticamente.
+2. Cada columna debe contener texto de relleno.
