@@ -1,0 +1,3 @@
+Ejercicio 4.
+Declara dos variables de tipo string con tu nombre y tu apellido. Concaténalos y muestra el
+resultado en la consola.
