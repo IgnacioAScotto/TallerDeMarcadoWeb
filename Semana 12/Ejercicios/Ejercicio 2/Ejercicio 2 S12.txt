@@ -1,0 +1,4 @@
+Ejercicio 2.
+Declara tres variables en JavaScript: una para almacenar tu nombre, otra para tu edad y
+otra para un valor booleano que indique si eres estudiante. Muestra estos valores en la
+consola.

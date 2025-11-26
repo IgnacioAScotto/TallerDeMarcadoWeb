@@ -1,0 +1,16 @@
+Ejercicio 1.
+Crea una página HTML que incluya un archivo JavaScript externo llamado script.js. En el
+archivo script.js, muestra una alerta con el mensaje "¡Hola, mundo!".
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hola Mundo</title>
+<script src="script.js"></script>
+</head>
+<body>
+<h1>Incluir JavaScript</h1>
+</body>
+</html>
+Pista: Investigar función alert.
