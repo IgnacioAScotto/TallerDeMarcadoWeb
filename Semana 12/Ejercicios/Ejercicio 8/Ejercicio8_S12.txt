@@ -1,0 +1,2 @@
+Crea una página HTML con un botón. Usa JavaScript para mostrar una alerta con el
+mensaje "Botón presionado" cuando el botón sea presionado.
