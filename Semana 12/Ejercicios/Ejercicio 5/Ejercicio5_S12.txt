@@ -1,0 +1,2 @@
+Crea una página HTML con un párrafo que tenga un id "miParrafo". 
+Usa JavaScript para cambiar el contenido del párrafo a "Texto cambiado con JavaScript".

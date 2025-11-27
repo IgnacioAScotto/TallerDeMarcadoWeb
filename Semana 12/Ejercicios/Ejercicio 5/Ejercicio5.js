@@ -1,0 +1,1 @@
+document.getElementById('miParrafo').textContent = 'Texto cambiado con Javascript';
