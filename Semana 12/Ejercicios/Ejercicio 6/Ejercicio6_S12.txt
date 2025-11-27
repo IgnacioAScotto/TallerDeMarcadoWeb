@@ -1,0 +1,3 @@
+Ejercicio 6.
+Crea una función en JavaScript que tome dos números como parámetros, los sume y
+devuelva el resultado. Usa esta función y muestra el resultado en la consola.
