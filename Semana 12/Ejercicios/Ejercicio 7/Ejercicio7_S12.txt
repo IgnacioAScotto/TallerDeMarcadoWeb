@@ -1,0 +1,3 @@
+Ejercicio 7.
+Escribe un script en JavaScript que verifique si un número es positivo, negativo o cero.
+Muestra un mensaje en la consola para cada caso.
